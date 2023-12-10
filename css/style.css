@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #747474;
+    font-family: "Work Sans", Arial, sans-serif;
+  }
+  header.container-fluid {
+    background: white;
+ 
+  }
+ .logo-docplanner{
+  width:300px;  
+}
+nav.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+ul.main-menu li{
+    margin:5px 20px;
+    list-style: none;
+    text-decoration: none;
+
+    }
+
+ul.main-menu{
+display: flex;
+flex-wrap: wrap;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    position: absolute;
+    right: -150px;
+    width: 300px;
+    box-shadow: 0 7px 5px 0 #a59898b3;
+    top: 25px;
+    padding: 5px;
+}
+
+.dropdown-content{
+    display: none;
+}
+header.container-fluid {
+    position: fixed;
+    top: 0;
+    padding: 20px;
+}
+li a:hover{
+    color: #00b39b;
+}
+.dropdown:hover {
+    color: #00b39b;
+}
+a.is-current{
+    color: #00b39b;
+}
+/***********************************************************************************************************************************/
+.section{
+    padding: 100px;
+}
+
+.img{
+margin:20px;
+text-align: center;
+}
+
+.lead__logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+h1.lead{
+    text-align :center;
+    color: #00b39b;
+    padding: 5px;
+    font-size: 35px;
+} 
+.row{
+    text-align: initial;
+    display: flex;
+    padding: initial;
+}
+
+p.col{
+    text-align: justify;
+    margin: 30px 50px;
+}
+
+
+/***************************/
+section.grid{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: flex-start;
+    cursor:pointer;
+    border-radius: 10px;
+    height: 345px;
+    width: 900px;
+    margin-left: 206px; 
+    
+    
+}
+
+.icone{
+    margin-bottom: -10px;
+    margin-left: 33px;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+
+.patients{
+    background: #00ccb1;
+    color: white;
+    border-radius: 15px;
+    padding: 15px;
+    height: 350px;
+    margin: 20px;
+ }
+ .doctors{
+    background: #3d83df;
+    color: white;
+    border-radius: 15px;
+    padding: 15px;
+    height: 350px;
+    margin: 20px;
+ }
+
+ .clinics{
+    background: #1b2734;
+    color: white;
+    border-radius: 15px;
+    padding: 15px;
+    height: 350px;
+    margin: 20px;
+ }
+ 
+
+
+.patients h1,
+.doctors h1,
+.clinics h1 {
+    margin-block-start: 0.67em;
+    margin-inline-start: 33px;
+    font-size: 25px;
+    color: white;
+    
+}
+
+.patients h2,
+.doctors h2,
+.clinics h2 {
+  font-size: 18px;
+  color: white;
+  margin-block-start: 0.83em;
+  margin-block-end: 3.83em;
+  margin-left: 36px;
+}
+
+select.choose.the.country{
+    background: #3d83df;;
+    border: #3d83df;;
+    text-decoration: underline;
+    font-weight: bold;
+    color: white ;
+    margin-top: 67px;
+    margin-left: 34px;
+    
+}
+
+
+select.choose.country{
+    background: #00ccb1;
+    border: #00ccb1;
+    text-decoration: underline;
+    font-weight: bold;
+    color: white ;
+    margin-top: 67px;
+    margin-left: 34px;
+}
+option.color{
+    background-color: white;
+}
+
+select.specialists{
+     background: #1b2734;
+     border:#1b2734;
+     text-decoration: underline;
+     font-weight: bold;
+     color: white;
+     margin-top: 22px;
+    margin-left: 36px;
+
+}
+
+
